@@ -1,31 +1,37 @@
-*{
-	margin: 0;
-	padding: 0;
-	box-sizing:border-box;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
 }
 
 /*
 Overall Layout
 */
-
 .wrap {
-	display:flex;
-	flex-direction:column;
+  display: flex;
+  flex-direction: column;
 }
 
 .wrap > * {
-	flex:1 1 auto;
+  flex: 1 1 auto;
 }
 
 /*
 header
 */
-
 .app-header {
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 92px;
 }
 
 /*
@@ -33,165 +39,147 @@ Content
 */
 
 .content {
-	overflow-y:scroll;
-	-webkit-overflow-scrolling:touch;
-	padding-top:120px;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+  padding-top: 120px;
 }
 
 .img {
-background-image:url(images/image.svg);
-height: 587.15px;
-left: -34px;
-top: 104px;
-background-repeat: no-repeat;
-background-size: cover;
+  background-image: url(images/image.svg);
+  height: 587.15px;
+  left: -34px;
+  top: 104px;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-
 
 /*
 Icon Bar
 */
 
 .icon-bar {
-	display: flex;
-	padding-top: 10px;
+  display: flex;
+  padding-top: 10px;
 }
 
 .icon-bar a {
-	flex:1;
+  flex: 1;
 }
 
-/*test*/
-
-.app-header{
-height: 92px;
-}
+/* test */
 
 .mylogo {
-width:120px;
-height:20px;
-padding-left: 20px;
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 700;
-font-size: 18px;
-line-height: 20px;
-/* identical to box height, or 111% */
+  width: 120px;
+  height: 20px;
+  padding-left: 20px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
 
-display: flex;
-align-items: center;
-text-align: center;
+  /* identgitical to box height, or 111% */
 
-/* Primary/B400 */
+  display: flex;
+  align-items: center;
+  text-align: center;
 
-color: #6070FF;
+  /* Primary/B400 */
 
+  color: #6070ff;
 
-/* Inside auto layout */
+  /* Inside auto layout */
 
-flex: none;
-order: 0;
-flex-grow: 0;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
 }
 
 .bars {
-	color:#6070FF;
-	padding-right: 20px;
+  color: #6070ff;
+  padding-right: 20px;
 }
 
 .fa-bars {
-	font-size: 58px;
+  font-size: 58px;
 }
 
 .copy {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  padding-left: 20px;
 
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 700;
-font-size: 40px;
-line-height: 52px;
-padding-left:20px;
-/* or 130% */
+  /* or 130% */
 
-display: flex;
-align-items: center;
+  display: flex;
+  align-items: center;
 
-/* Neutrals/N800 */
+  /* Neutrals/N800 */
 
-color: #172B4D;
-
+  color: #172b4d;
 }
 
 .paragraph {
-	/* Body / 2 */
+  /* Body / 2 */
 
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 24px;
-padding-left: 20px;
-padding-right: 20px;
-padding-top: 20px;
-/* or 150% */
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
 
+  /* or 150% */
 
-/* Neutrals/N600 */
+  /* Neutrals/N600 */
 
-color: #344563;
+  color: #344563;
 
+  /* Inside auto layout */
 
-/* Inside auto layout */
-
-flex: none;
-order: 1;
-flex-grow: 0;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
 }
-
 
 .capital {
-	font-family: 'Poppins';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 24px;
-padding-left:20px;
-padding-top: 10px;
-text-transform: uppercase;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  padding-left: 20px;
+  padding-top: 10px;
+  text-transform: uppercase;
 
-/* identical to box height, or 150% */
+  /* identical to box height, or 150% */
 
+  /* Primary/B300 */
 
-/* Primary/B300 */
+  color: #7f8cff;
 
-color: #7F8CFF;
+  /* Inside auto layout */
 
-
-/* Inside auto layout */
-
-flex: none;
-order: 0;
-flex-grow: 0;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
 }
 
-.icon{
-left: 6.4%;
-right: 88.27%;
-top: 77.81%;
-bottom: 18.88%;
-padding-left: 20px;
+.icon {
+  left: 6.4%;
+  right: 88.27%;
+  top: 77.81%;
+  bottom: 18.88%;
+  padding-left: 20px;
 
-/* Neutrals/N400 */
+  /* Neutrals/N400 */
 
-color: #505F79;
+  color: #505f79;
 }
-
 
 i:hover {
-	color: #CBCDFF;
-	transition: 0.3s;
+  color: #cbcdff;
+  transition: 0.3s;
 }
 
 i:active {
-	color: #3244E7;
+  color: #3244e7;
 }
