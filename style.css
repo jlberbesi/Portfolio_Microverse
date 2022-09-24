@@ -130,13 +130,3 @@ i:hover {
 i:active {
   color: #3244e7;
 }
-
-/*
-Works
-*/
-
-article {
-  display: flex;
-  align-items: center;
-  text-align: center;
-}
