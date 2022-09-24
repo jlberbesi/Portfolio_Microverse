@@ -25,7 +25,6 @@ nav a {
   font-weight: 700;
 }
 
-
 .content {
   overflow-y: scroll;
   -webkit-overflow-scrolling: touch;
@@ -34,7 +33,6 @@ nav a {
   background-repeat: no-repeat;
   background-size: cover;
 }
-
 
 .icon-bar {
   display: flex;
@@ -65,7 +63,7 @@ nav a {
 
   /* Primary/B400 */
 
-  
+
 
   /* Inside auto layout */
 
