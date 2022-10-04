@@ -201,14 +201,12 @@ span {
 
 .tags {
   list-style: none;
-  display: flex;
-  flex-direction: row;
-  gap: 8px;
+  display: inline-block;
 }
 
 .tag {
-  align-items: center;
-  margin: auto auto;
+  float:left;
+  margin-right: 20px;
   padding: 4px 12px;
   background: #ebebff;
   border-radius: 8px;
