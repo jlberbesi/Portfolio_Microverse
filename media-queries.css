@@ -1,1 +1,28 @@
-@media (max-width:758px)
+@media (min-width: 768px) {
+  .menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 32px;
+    list-style: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #344563;
+  }
+
+  .fa-bars::before {
+    display: none;
+  }
+
+  nav {
+    padding: 25px 8% 60px 8%;
+  }
+}
+
+@media (max-width: 767px) {
+  .menu {
+    display: none;
+  }
+}
