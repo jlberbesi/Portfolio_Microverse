@@ -10,6 +10,7 @@
     font-size: 15px;
     line-height: 20px;
     color: #344563;
+    margin-right: 8%;
   }
 
   .fa-bars::before {
@@ -17,7 +18,200 @@
   }
 
   nav {
-    padding: 25px 8% 60px 8%;
+    padding: 25px 8% 50px 8%;
+    background-color: white;
+  }
+
+  .icon {
+    padding-left: 0%;
+  }
+
+  .icon-bar {
+    gap: 20px;
+  }
+
+  .content {
+    background-image: url(images/Headerbg@2x.svg);
+    background-repeat: no-repeat;
+    background-size: 95%;
+    background-position: top center;
+    height: 721.46px;
+    background-color: white;
+    border-bottom-left-radius: 160px;
+  }
+
+  footer {
+    background-image: url(images/contactformbackroundshapes.svg);
+    background-repeat: no-repeat;
+    background-size: 95%;
+    background-position: center center;
+    height: 718.7px;
+    margin-top: 0;
+  }
+
+  nav a {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    padding-left: 6%;
+  }
+
+  h1 {
+    padding-left: 10%;
+  }
+
+  .paragraph {
+    padding-left: 10%;
+    width: 850px;
+  }
+
+  .extra {
+    padding-left: 10%;
+  }
+
+  .extra-bar {
+    padding-left: 10%;
+  }
+
+  /* left */
+
+  .wrapper {
+    margin: 50px auto;
+    height: 456px;
+    width: 890px;
+  }
+
+  article {
+    display: flex;
+    flex-direction: row;
+    margin: auto auto;
+  }
+
+  .adjust {
+    display: flex;
+    flex-direction: column;
+    margin-top: 7%;
+  }
+
+  img {
+    width: 544px;
+    height: 448px;
+    margin: 0 24px;
+  }
+
+  .tag {
+    margin: 0 0;
+  }
+
+  /* right */
+
+  .float {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .image {
+    margin: 0 0;
+  }
+
+  #flex {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #a {
+    order: 3;
+  }
+
+  #b {
+    order: 4;
+  }
+
+  #c {
+    order: 1;
+  }
+
+  #d {
+    order: 2;
+  }
+
+  #e {
+    order: 5;
+  }
+
+  .myself {
+    display: flex;
+    justify-content: space-between;
+    margin: auto auto;
+    padding-top: 8%;
+    padding-bottom: 8%;
+  }
+
+  .wrapper:hover {
+    border: 1px solid #3244e7;
+    transition: 0.3s;
+  }
+
+  .wrapper:active {
+    border: 1px solid #3244e7;
+    transition: 0.3s;
+  }
+
+  .squads {
+    margin-left: 8%;
+  }
+
+  h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 44px;
+    color: #172b4d;
+  }
+
+  .wider {
+    width: 400px;
+    padding-left: 0;
+  }
+
+  .skill {
+    margin-right: 20%;
+  }
+
+
+
+  .icon-horizontal {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+  }
+
+  .pull {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90px;
+    height: 100px;
+  }
+
+  .wording {
+    text-align: center;
+  }
+
+  .submit {
+    justify-content: center;
+    align-items: center;
+    padding-left: 0%;
+    margin: 15px auto;
+  }
+
+  .call {
+    margin: 0 auto;
+    width: 469px;
+  }
+
+  form {
+    margin-top: 10px;
   }
 }
 
