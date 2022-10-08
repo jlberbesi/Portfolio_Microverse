@@ -206,7 +206,7 @@ span {
   gap: 8px;
 }
 
-.tag {
+.label {
   align-items: center;
   margin: auto auto;
   padding: 4px 12px;
@@ -234,13 +234,12 @@ button {
 }
 
 .myself {
-  position: absolute;
+  margin: auto auto;
   grid-gap: 5px;
   background: url(images/Baseaboutmyself.svg);
   width: 100%;
   height: auto;
-  margin: auto auto;
-  padding: 20px 20px;
+  padding: 20px 30px;
   padding-left: 10%;
   border-radius: 16px;
   background-repeat: no-repeat;
@@ -312,6 +311,93 @@ button:hover {
 }
 
 button:active {
+  background-color: #3244e7;
+  color: white;
+}
+
+footer {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 5px;
+  background: url(images/contactformshapesmobile.svg);
+  height: 779px;
+  background-repeat: no-repeat;
+  background-size: auto;
+  margin-top: 113.85px;
+  background-color: #6070ff;
+  border-top-left-radius: 80px;
+  background-position: right;
+  z-index: -999;
+}
+
+.bottom {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 103px 9% 0 9%;
+  gap: 12px;
+  color: white;
+  height: auto;
+}
+
+.white {
+  color: white;
+}
+
+form {
+  gap: 100px;
+  margin-top: 40px;
+}
+
+input {
+  background: #fff;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  height: 50px;
+  width: 327px;
+  margin-bottom: 20px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  color: #172b4d;
+  padding-left: 16px;
+}
+
+textarea {
+  border-radius: 8px;
+  height: 75%;
+  width: 327px;
+  padding-left: 16px;
+  padding-top: 15px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #b3bac5;
+}
+
+.submit {
+  display: flex;
+  justify-content: left;
+  width: 140px;
+  height: 48px;
+  background: #fff;
+  border-radius: 8px;
+  margin-top: 18px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  color: #6070ff;
+}
+
+.submit:hover {
+  background-color: #3244e7;
+  color: white;
+  transition: 0.2s;
+}
+
+.submit:active {
   background-color: #3244e7;
   color: white;
 }
