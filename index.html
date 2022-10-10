@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="media-queries.css">
     <title>Portfolio</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
@@ -13,18 +14,24 @@
         <nav>
         <a href="#">My Logo</a>
         <i class="fa fa-bars fa-2x bars "></i>
+        
+            <ul class="menu">
+                <li>Portfolio</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+         
         </nav>
     </header>
-    <main>
+    <main id="flex">
         <section class="content">
             <h1>I'm José</br>
-            Glad to see </br>
-            you
+            Glad to see you
             </h1>
             <p class="paragraph">I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
-            <p class="capital">Let's connect</p>
+            <p class="capital extra">Let's connect</p>
             
-            <ul class="icon-bar">
+            <ul class="icon-bar extra-bar">
                 <li>
                     <a href="#"><i class="fa fa-twitter fa-2x icon"></i></a>
                 </li>
@@ -39,132 +46,142 @@
                 </li>
             </ul>
         </section>
-        <section class="wrapper">
+        <section class="wrapper" id="a">
             <article>
                 <img src="images/Snapshoot Portfolio.svg">
-                <div class="leftblock">
-                    <h2>Tonic</h2>
-                    <div class="ref">
-                        <span class="client">Canopy</span>
-                        <span><i class="fa fa-circle fa-xs"></i></span>
-                        <span>Back End Dev</span>
-                        <span><i class="fa fa-circle"></i></span>
-                        <span class="year">2015</span>
+                <div class="adjust">
+                        <div class="leftblock">
+                            <h2>Tonic</h2>
+                            <div class="ref">
+                                <span class="client">Canopy</span>
+                                <span><i class="fa fa-circle fa-xs"></i></span>
+                                <span>Back End Dev</span>
+                                <span><i class="fa fa-circle"></i></span>
+                                <span class="year">2015</span>
+                            </div>
+                            <p class="primarytext">A daily selection of privately personalized reads; no accounts or sign-ups required.</p> 
+                        </div>
+                        <ul class="tags">
+                            <li class="tag">html</button>
+                            <li class="tag">css</button>
+                            <li class="tag">javascript</button>
+                        </ul>
+                        <div class="ref">
+                        <button>See project</button>
+                        </div>
+                </div>
+            </article>
+        </section>
+        <section class="wrapper" id="b">
+            <article class="float">
+            <img class="image"  src="images/SnapshootPortfolio02.svg">
+            <div class="adjust">
+                    <div class="leftblock">
+                        <h2>Tonic</h2>
+                        <div class="ref">
+                            <span class="client">Canopy</span>
+                            <span><i class="fa fa-circle fa-xs"></i></span>
+                            <span>Back End Dev</span>
+                            <span><i class="fa fa-circle"></i></span>
+                            <span class="year">2015</span>
+                        </div>
+                        <p class="primarytext">A daily selection of privately personalized reads; no accounts or sign-ups required.</p> 
                     </div>
-                    <p class="primarytext">A daily selection of privately personalized reads; no accounts or sign-ups required.</p> 
-                </div>
-                <ul class="tags">
-                    <li class="label">html</button>
-                    <li class="label">css</button>
-                    <li class="label">javascript</button>
-                </ul>
-                <div class="ref">
-                <button>See project</button>
-                </div>
-            </article>
-        </section>
-        <section class="wrapper">
-            <article>
-            <img src="images/SnapshootPortfolio02.svg">
-            <div class="leftblock">
-                <h2>Tonic</h2>
-                <div class="ref">
-                    <span class="client">Canopy</span>
-                    <span><i class="fa fa-circle fa-xs"></i></span>
-                    <span>Back End Dev</span>
-                    <span><i class="fa fa-circle"></i></span>
-                    <span class="year">2015</span>
-                </div>
-                <p class="primarytext">A daily selection of privately personalized reads; no accounts or sign-ups required.</p> 
+                    <ul class="tags">
+                        <li class="tag">html</button>
+                        <li class="tag">css</button>
+                        <li class="tag">javascript</button>
+                    </ul>
+                    <div class="ref">
+                    <button>See project</button>
+                    </div>
             </div>
-            <ul class="tags">
-                <li class="label">html</button>
-                <li class="label">css</button>
-                <li class="label">javascript</button>
-            </ul>
-            <div class="ref">
-            <button>See project</button>
-            </div>
-            </article>
+        </article>
         </section>
-        <section class="wrapper">
+        <section class="wrapper" id="c">
             <article>
                 <img src="images/SnapshootPortfolio03.svg">
-                <div class="leftblock">
-                    <h2>Tonic</h2>
-                    <div class="ref">
-                        <span class="client">Canopy</span>
-                        <span><i class="fa fa-circle fa-xs"></i></span>
-                        <span>Back End Dev</span>
-                        <span><i class="fa fa-circle"></i></span>
-                        <span class="year">2015</span>
+                <div class="adjust">
+                        <div class="leftblock">
+                            <h2>Tonic</h2>
+                            <div class="ref">
+                                <span class="client">Canopy</span>
+                                <span><i class="fa fa-circle fa-xs"></i></span>
+                                <span>Back End Dev</span>
+                                <span><i class="fa fa-circle"></i></span>
+                                <span class="year">2015</span>
+                            </div>
+                            <p class="primarytext">A daily selection of privately personalized reads; no accounts or sign-ups required.</p> 
+                        </div>
+                        <ul class="tags">
+                            <li class="tag">html</button>
+                            <li class="tag">css</button>
+                            <li class="tag">javascript</button>
+                        </ul>
+                        <div class="ref">
+                        <button>See project</button>
+                        </div>
+                </div>
+            </article>
+        </section>
+        <section class="wrapper" id="d">
+            <article class="float">
+            <img class="image" src="images/SnapshootPortfolio04.svg">
+            <div class="adjust">
+                    <div class="leftblock">
+                        <h2>Tonic</h2>
+                        <div class="ref">
+                            <span class="client">Canopy</span>
+                            <span><i class="fa fa-circle fa-xs"></i></span>
+                            <span>Back End Dev</span>
+                            <span><i class="fa fa-circle"></i></span>
+                            <span class="year">2015</span>
+                        </div>
+                        <p class="primarytext">A daily selection of privately personalized reads; no accounts or sign-ups required.</p> 
                     </div>
-                    <p class="primarytext">A daily selection of privately personalized reads; no accounts or sign-ups required.</p> 
-                </div>
-                <ul class="tags">
-                    <li class="label">html</button>
-                    <li class="label">css</button>
-                    <li class="label">javascript</button>
-                </ul>
-                <div class="ref">
-                <button>See project</button>
-                </div>
-            </article>
-        </section>
-        <section class="wrapper">
-            <article>
-            <img src="images/SnapshootPortfolio04.svg">
-            <div class="leftblock">
-                <h2>Tonic</h2>
-                <div class="ref">
-                    <span class="client">Canopy</span>
-                    <span><i class="fa fa-circle fa-xs"></i></span>
-                    <span>Back End Dev</span>
-                    <span><i class="fa fa-circle"></i></span>
-                    <span class="year">2015</span>
-                </div>
-                <p class="primarytext">A daily selection of privately personalized reads; no accounts or sign-ups required.</p> 
-            </div>
-            <ul class="tags">
-                <li class="label">html</button>
-                <li class="label">css</button>
-                <li class="label">javascript</button>
-            </ul>
-            <div class="ref">
-            <button>See project</button>
+                    <ul class="tags">
+                        <li class="tag">html</button>
+                        <li class="tag">css</button>
+                        <li class="tag">javascript</button>
+                    </ul>
+                    <div class="ref">
+                    <button>See project</button>
+                    </div>
             </div>
             </article>
         </section>
-        <section class="myself">
-                <h2>About</br>
-                    Myself </br> 
-                </h2>
-                <p class="paragraph"> Hello I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
-                <p class="capital">Let's connect</p>
-                
-                <ul class="icon-bar">
-                    <li>
-                        <a href="#"><i class="fa fa-twitter fa-2x icon"></i></a>
-                    </li>
-                    <li>
-                        <a href="#"><i class="fa fa-linkedin fa-2x icon"></i></a>
-                    </li>
-                    <li>
-                        <a href=""><i class="fa fa-github fa-2x icon"></i></a>
-                    </li>
-                    <li>
-                        <a href=""><i class="fa fa-angellist fa-2x icon"></i></a>
-                    </li>
-                </ul>
-                <div class="action">
-                    <button>Get my resume</button>
+        <section class="myself" id="e">
+                <div class="squads">
+                        <h2>About</br>
+                            Myself </br> 
+                        </h2>
+                        <p class="paragraph wider"> Hello I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
+                        <p class="capital">Let's connect</p>
+                        
+                        <ul class="icon-bar">
+                            <li>
+                                <a href="#"><i class="fa fa-twitter fa-2x icon"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa fa-linkedin fa-2x icon"></i></a>
+                            </li>
+                            <li>
+                                <a href=""><i class="fa fa-github fa-2x icon"></i></a>
+                            </li>
+                            <li>
+                                <a href=""><i class="fa fa-angellist fa-2x icon"></i></a>
+                            </li>
+                        </ul>
+                        <div class="action">
+                            <button>Get my resume</button>
+                        </div>
                 </div>
                 <div class="skill">
                         <div class="languages">
                             <h3>Languaje</h3>
                             <span><i class="fa fa-chevron-down "></i></span>
                         </div>
-                        <ul>
+                        <ul class="icon-horizontal">
                             <li class="pull">
                                 <img class="logos" src="images/Ellipse01.svg">
                                 <span class="wording">javascript</span>
