@@ -69,38 +69,24 @@ Welcome to my software developer portfolio! Here, you'll find a collection of my
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> Describe the tech stack and include only the relevant sections that apply to your project.
+For this project, I haven't used complex technologies. I mainly used HTML and CSS for layout design.
 
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
+    <li><a href="#">Html</a></li>
+    <li><a href="#">CSS</a></li>
   </ul>
 </details>
 
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
-  </ul>
-</details>
-
-<details>
-<summary>Database</summary>
-  <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
-  </ul>
-</details>
 
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
+There are no features currently built as this is currently just an informational site.
 
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -108,9 +94,9 @@ Welcome to my software developer portfolio! Here, you'll find a collection of my
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
+NA
 
-- [Live Demo Link](https://yourdeployedapplicationlink.com)
+- [Live Demo Link](#)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -206,15 +192,10 @@ Example:
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+-
+- Twitter: [@imberbesi](https://twitter.com/imberbesi)
 
-👤 **Author2**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -222,11 +203,9 @@ Example:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
+There are no features currently built as this is currently just an informational site.
 
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
