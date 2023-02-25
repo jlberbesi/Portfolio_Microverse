@@ -60,11 +60,10 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 [Jose Berbesí Portafolio] <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
-
-**[your_project__name]** is a...
+Welcome to my software developer portfolio! Here, you'll find a collection of my best web application projects. My portfolio showcases my skills in various programming languages and frameworks, such as Python, React, and Angular. Feel free to take a look at my projects and explore my experience in web application development.
+**[Jose Berbesí Portafolio]** is a...
 
 ## 🛠 Built With <a name="built-with"></a>
 
