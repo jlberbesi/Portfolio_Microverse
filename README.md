@@ -7,6 +7,7 @@ Portfolio
 ## Link Portfolio
 
 - Link: https://jlberbesi.github.io/Portfolio/
+- Loom: https://www.loom.com/share/aff3750b834b417787d7ed6c7d56e72b
 
 ## Built With
 
