@@ -134,7 +134,7 @@ Example commands:
 
 ### Install
 
-Install this project with:
+This is just basic html, css, and javascript. Nothing special to run it.  You will only need to click on index. 
 
 <!--
 Example command:
@@ -147,7 +147,7 @@ Example command:
 
 ### Usage
 
-To run the project, execute the following command:
+This item is not requiered for this project
 
 <!--
 Example command:
@@ -159,7 +159,7 @@ Example command:
 
 ### Run tests
 
-To run tests, run the following command:
+This item is not requiered for this project
 
 <!--
 Example command:
@@ -171,7 +171,7 @@ Example command:
 
 ### Deployment
 
-You can deploy this project using:
+This item is not requiered for this project
 
 <!--
 Example:
