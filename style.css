@@ -486,14 +486,16 @@ header {
     left: -100%;
     top: 0;
     flex-direction: column;
-    background-color: #3244e7;
     display: flex;
     width: 100vw;
     height: 100vh;
     text-align: center;
     transition: 0.3s;
-    opacity: 96%;
+    background-color: rgba(96, 112, 255, 2);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(8px);
     padding-top: 20%;
+    mix-blend-mode: multiply;
   }
 
   .nav-item {
