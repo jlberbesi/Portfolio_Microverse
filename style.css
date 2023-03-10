@@ -406,92 +406,87 @@ textarea {
   font-size: larger;
   background-color: transparent;
   border: none;
-  color: #6070FF;
+  color: #6070ff;
 }
 
-header{
+header {
   background-color: #f7f7f9;
 }
 
-
-li{
+li {
   list-style: none;
   padding-top: 40px;
 }
 
-a{
+a {
   color: #172b4d;
 }
 
-.navbar{
+.navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.nav-menu{
+.nav-menu {
   display: flex;
   justify-content: space-between;
-  align-items:flex-start;
+  align-items: flex-start;
   padding-left: 15%;
-  gap: 0px;
-  
+  gap: 0;
 }
 
-.nav-link{
+.nav-link {
   transition: 0.7s ease;
 }
 
-.nav-link:hover{
-  color:#7a869a;
+.nav-link:hover {
+  color: #7a869a;
 }
 
-.hamburger{
+.hamburger {
   display: none;
   cursor: pointer;
 }
 
-.bar{
+.bar {
   display: block;
   width: 25px;
-  height:4px;
+  height: 4px;
   margin: 5px auto;
   -webkit-transition: all 0.3s ease-in-out;
-  background-color: #6070FF;
+  background-color: #6070ff;
 }
 
 .nav-branding {
-  color:#6070FF;
+  color: #6070ff;
 }
 
-
 @media (max-width: 767px) {
-
-  .hamburger{
+  .hamburger {
     display: block;
   }
-  
-  .hamburger.active .bar:nth-child(2){
+
+  .hamburger.active .bar:nth-child(2) {
     opacity: 0;
   }
-  
-  .hamburger.active .bar:nth-child(1){
+
+  .hamburger.active .bar:nth-child(1) {
     transform: translateY(8px) rotate(45deg);
     background-color: white;
-
   }
-  
-  .hamburger.active .bar:nth-child(3){
+
+  .hamburger.active .bar:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
     background-color: white;
   }
 
-  .nav-menu{
+  .nav-menu {
     position: fixed;
     left: -100%;
-    top:0px;
+    top: 0;
     flex-direction: column;
-    background-color:#3244e7;
+    background-color: #3244e7;
     display: flex;
     width: 100vw;
     height: 100vh;
@@ -499,26 +494,23 @@ a{
     transition: 0.3s;
     opacity: 96%;
     padding-top: 20%;
+  }
 
-    }
+  .nav-item {
+    margin: 0;
+    flex-grow: 1;
+  }
 
-    .nav-item{
-      margin:  0;
-      flex-grow: 1;
-    }
+  .nav-menu.active {
+    left: 0;
+  }
 
-    .nav-menu.active{
-      left:0;
-    }
+  .no-scroll {
+    overflow: hidden;
+    filter: blur(0);
+  }
 
-    .no-scroll {
-      overflow: hidden;
-      filter: blur(0px);
-    }
-    .nav-filter {
-      filter: none;
-    }
-        
-    
-
+  .nav-filter {
+    filter: none;
+  }
 }
