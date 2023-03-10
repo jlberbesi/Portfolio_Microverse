@@ -214,7 +214,20 @@
 }
 
 @media (max-width: 767px) {
-  .menu {
-    display: none;
-  }
+.hamburguer{
+  display: block;
+}
+
+.hamburguer.active .bar:nth-child(2){
+  opacity: 0;
+}
+
+.hamburguer.active .bar:nth-child(1){
+  transform: translate(8px) rotate(45deg);
+}
+
+.hamburguer.active .bar:nth-child(1){
+  transform: translate(8px) rotate(45deg);
+}
+
 }

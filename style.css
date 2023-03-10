@@ -16,14 +16,14 @@ body {
 nav {
   display: flex;
   justify-content: space-between;
-  padding: 60px 10%;
+  padding: 40px 10%;
 }
 
 nav a {
   text-decoration: none;
-  font-size: 30px;
-  color: #6070ff;
-  font-weight: 700;
+  font-size: 32px;
+  color: white;
+  font-weight: 600;
 }
 
 .content {
@@ -400,4 +400,125 @@ textarea {
 .submit:active {
   background-color: #3244e7;
   color: white;
+}
+
+.menu-btn {
+  font-size: larger;
+  background-color: transparent;
+  border: none;
+  color: #6070FF;
+}
+
+header{
+  background-color: #f7f7f9;
+}
+
+
+li{
+  list-style: none;
+  padding-top: 40px;
+}
+
+a{
+  color: #172b4d;
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-menu{
+  display: flex;
+  justify-content: space-between;
+  align-items:flex-start;
+  padding-left: 15%;
+  gap: 0px;
+  
+}
+
+.nav-link{
+  transition: 0.7s ease;
+}
+
+.nav-link:hover{
+  color:#7a869a;
+}
+
+.hamburger{
+  display: none;
+  cursor: pointer;
+}
+
+.bar{
+  display: block;
+  width: 25px;
+  height:4px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  background-color: #6070FF;
+}
+
+.nav-branding {
+  color:#6070FF;
+}
+
+
+@media (max-width: 767px) {
+
+  .hamburger{
+    display: block;
+  }
+  
+  .hamburger.active .bar:nth-child(2){
+    opacity: 0;
+  }
+  
+  .hamburger.active .bar:nth-child(1){
+    transform: translateY(8px) rotate(45deg);
+    background-color: white;
+
+  }
+  
+  .hamburger.active .bar:nth-child(3){
+    transform: translateY(-8px) rotate(-45deg);
+    background-color: white;
+  }
+
+  .nav-menu{
+    position: fixed;
+    left: -100%;
+    top:0px;
+    flex-direction: column;
+    background-color:#3244e7;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    transition: 0.3s;
+    opacity: 96%;
+    padding-top: 20%;
+
+    }
+
+    .nav-item{
+      margin:  0;
+      flex-grow: 1;
+    }
+
+    .nav-menu.active{
+      left:0;
+    }
+
+    .no-scroll {
+      overflow: hidden;
+      filter: blur(0px);
+    }
+    .nav-filter {
+      filter: none;
+    }
+        
+    
+
 }
