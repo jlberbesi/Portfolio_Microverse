@@ -462,9 +462,6 @@ header {
   color: #6070ff;
 }
 
-
-/* pop-up */
-
 .popup {
   display: none; /* hide the popup by default */
   position: fixed; /* position the popup relative to the browser window */
