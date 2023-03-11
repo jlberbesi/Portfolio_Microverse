@@ -10,16 +10,25 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-    <header class="app-header">
-        <nav>
-            <a href="#">My Logo</a>
-            <i class="fa fa-bars fa-2x bars "></i>
-            
-                <ul class="menu">
-                    <li>Portfolio</li>
-                    <li>About</li>
-                    <li>Contact</li>
-                </ul>
+    <header class="nav-filter">
+        <nav class="navbar">
+            <a href="#" class="nav-branding">My Logo</a>
+            <ul class="nav-menu menu">
+                <li>
+                    <a href="#a" class="nav-link">Portfolio</a>
+                </li>
+                <li>
+                    <a href="#e" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#f" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
         </nav>
     </header>
     <main id="flex">
@@ -206,7 +215,7 @@
         </section>
     </main>
     <footer>
-        <div class="bottom">
+        <div class="bottom" id="f">
             <h2 class="white">Contact me </h2>
             <p class="call">If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it </p>
             <form action="https://formspree.io/f/xkneznwb"
@@ -219,6 +228,6 @@
               </form>
         </div>
     </footer>
+    <script src="navigation.js"></script>
 </body>
 </html>
-
