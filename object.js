@@ -1,5 +1,5 @@
-let projects = [
-{ 
+const projects = [
+  {
     image: 'images/Snapshoot Portfolio.svg',
     name: 'Tonic',
     client: 'Canopy',
@@ -7,10 +7,10 @@ let projects = [
     year: 2015,
     description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     technologies: ['HTML', 'CSS', 'JavaScript'],
-    liveLink: "https://example.com/project-1-live",
-    sourceLink: "https://github.com/user/project-1"
-},
-{
+    liveLink: 'https://example.com/project-1-live',
+    sourceLink: 'https://github.com/user/project-1',
+  },
+  {
     image: 'images/project2.jpg',
     name: 'Tonic',
     client: 'Client 2',
@@ -18,10 +18,10 @@ let projects = [
     year: 2022,
     description: 'Praesent vel massa quis mauris vehicula lacinia quis vel mi.',
     technologies: ['React Native', 'Firebase'],
-    liveLink: "https://example.com/project-1-live",
-    sourceLink: "https://github.com/user/project-1"
-},
-{
+    liveLink: 'https://example.com/project-1-live',
+    sourceLink: 'https://github.com/user/project-1',
+  },
+  {
     image: 'images/project3.jpg',
     name: 'Project 3',
     client: 'Client 3',
@@ -29,10 +29,10 @@ let projects = [
     year: 2015,
     description: 'Praesent vel massa quis mauris vehicula lacinia quis vel mi.',
     technologies: ['React Native', 'Firebase'],
-    liveLink: "https://example.com/project-1-live",
-    sourceLink: "https://github.com/user/project-1"
-},
-{
+    liveLink: 'https://example.com/project-1-live',
+    sourceLink: 'https://github.com/user/project-1',
+  },
+  {
     image: 'images/project4.jpg',
     name: 'Project 4',
     client: 'Client 4',
@@ -40,10 +40,10 @@ let projects = [
     year: 2012,
     description: 'Praesent vel massa quis mauris vehicula lacinia quis vel mi.',
     technologies: ['React Native', 'Firebase'],
-    liveLink: "https://example.com/project-1-live",
-    sourceLink: "https://github.com/user/project-1"
-},
-    // add more projects here...
+    liveLink: 'https://example.com/project-1-live',
+    sourceLink: 'https://github.com/user/project-1',
+  },
+  // add more projects here...
 ];
 
 const tonic = projects[0]; // Obtiene el proyecto "Tonic" del arreglo
@@ -80,11 +80,3 @@ const tonicContainer = document.createElement('div');
 tonicContainer.innerHTML = tonicHTML;
 
 projectsContainer.appendChild(tonicContainer);
-
-
-
-
-
-
-
-
