@@ -59,3 +59,18 @@ close.addEventListener('click', () => {
   popup.style.display = 'none';
   body.style.overflow = 'auto';
 });
+
+const form = document.getElementById('contact-form');
+const emailInput = document.getElementById('email');
+const submitBtn = document.getElementById('submit-btn');
+
+form.addEventListener('submit', (event) => {
+  const email = emailInput.value.toLowerCase();
+  if (emailInput.value !== email) {
+    event.preventDefault();
+    const error = document.createElement('p');
+    error.style.color = 'red';
+    error.innerHTML = 'Please enter your email address in lower case.';
+    submitBtn.after(error);
+  }
+});
