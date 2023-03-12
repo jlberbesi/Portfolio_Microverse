@@ -70,12 +70,18 @@
                             <p class="primarytext">A daily selection of privately personalized reads; no accounts or sign-ups required.</p> 
                         </div>
                         <ul class="tags">
-                            <li class="tag">html</button>
+                            <li class="tag">Html</button>
                             <li class="tag">css</button>
                             <li class="tag">javascript</button>
                         </ul>
                         <div class="ref">
-                        <button>See project</button>
+                        <button class="popup-btn">See project</button>
+                        </div>
+                        <div class="popup">
+                            <div class="popup-content">
+                              <span class="close">&times;</span>
+                              <div id="projects-container"></div>
+                            </div>
                         </div>
                 </div>
             </article>
@@ -215,19 +221,19 @@
         </section>
     </main>
     <footer>
-        <div class="bottom" id="f">
-            <h2 class="white">Contact me </h2>
-            <p class="call">If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it </p>
-            <form action="https://formspree.io/f/xkneznwb"
-            method="POST">
-    
-                <input type="text" id="fname" name="name" placeholder="Your Name" value="John" maxlength="30" required><br>
-                <input type="email" id="lname" name="email" placeholder="Your Email" required value="Doe@gmail.com" ><br>
-                <textarea name="message" placeholder="Write your message here" required maxlength="500"></textarea></br>
-                <input type="submit" value="Get in Touch" class="submit">
-              </form>
+        <div class="bottom">
+          <h2 class="white">Contact me</h2>
+          <p class="call">If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it </p>
+          <form id="contact-form" action="https://formspree.io/f/xkneznwb" method="POST">
+            <input type="text" id="fname" name="name" placeholder="Your Name"  maxlength="30" required><br>
+            <input type="email" id="email" name="email" placeholder="Your Email" ><br>
+            <textarea name="message" placeholder="Write your message here" required maxlength="500"></textarea><br>
+            <input type="submit" id="submit-btn" value="Get in Touch" class="submit">
+          </form>
         </div>
     </footer>
     <script src="navigation.js"></script>
+    <script src="object.js"></script>
+    
 </body>
 </html>
