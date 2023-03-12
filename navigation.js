@@ -26,24 +26,9 @@ document.addEventListener('click', (event) => {
   }
 });
 
-// Get the popup element
-//const popup = document.querySelector('.popup');
-
-// Get the button that triggers the popup
-//const btn = document.querySelectorAll('.popup-btn');
-
-// Get the close button
-//const close = popup.querySelector('.close');
-
-// When the user clicks the button, display the popup
-//btn.addEventListener('click', () => {
-//  popup.style.display = 'block';
-//});
-
-// When the user clicks the close button, hide the popup
-//close.addEventListener('click', () => {
-//  popup.style.display = 'none';
-//});
+const popup = document.querySelector('.popup');
+const btn = document.querySelectorAll('.popup-btn');
+const close = popup.querySelector('.close');
 
 const popGenrato = () => {
   const popup = document.querySelector('.popup');
