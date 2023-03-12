@@ -15,7 +15,6 @@ body {
 
 li {
   list-style: none;
-  padding-top: 40px;
 }
 
 a {
@@ -65,6 +64,11 @@ nav a {
   font-weight: 700;
   font-size: 18px;
   line-height: 20px;
+}
+
+#adj {
+  height: auto;
+  width: auto;
 }
 
 .bars {
@@ -496,6 +500,10 @@ body.popup-active {
   overflow: hidden;
 }
 
+.fastt {
+  margin-left: 10px;
+}
+
 @media (max-width: 767px) {
   .hamburger {
     display: block;
@@ -548,5 +556,10 @@ body.popup-active {
 
   .nav-filter {
     filter: none;
+  }
+
+  #adj {
+    height: auto;
+    width: auto;
   }
 }

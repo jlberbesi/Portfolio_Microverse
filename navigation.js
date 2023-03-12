@@ -26,24 +26,27 @@ document.addEventListener('click', (event) => {
   }
 });
 
-// Get the popup element
 const popup = document.querySelector('.popup');
-
-// Get the button that triggers the popup
-const btn = document.querySelector('.popup-btn');
-
-// Get the close button
+const btn = document.querySelectorAll('.popup-btn');
 const close = popup.querySelector('.close');
 
-// When the user clicks the button, display the popup
-btn.addEventListener('click', () => {
-  popup.style.display = 'block';
-});
+const popGenrato = () => {
+  const popup = document.querySelector('.popup');
+  const btn = document.querySelectorAll('.popup-btn');
+  const close = popup.querySelector('.close');
+  btn.forEach((btns) => {
+    btns.addEventListener('click', () => {
+      popup.style.display = 'block';
+    });
+  });
+  close.addEventListener('click', () => {
+    popup.style.display = 'none';
+  });
+};
 
-// When the user clicks the close button, hide the popup
-close.addEventListener('click', () => {
-  popup.style.display = 'none';
-});
+window.onload = () => {
+  popGenrato();
+};
 
 // No scrooll down . Get the body element
 const body = document.querySelector('body');

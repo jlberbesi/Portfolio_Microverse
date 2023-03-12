@@ -90,7 +90,6 @@
   .adjust {
     display: flex;
     flex-direction: column;
-    margin-top: 7%;
   }
 
   img {
