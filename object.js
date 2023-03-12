@@ -5,7 +5,7 @@ const projects = [
     client: 'Canopy',
     category: 'Back End Dev',
     year: 2015,
-    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
     technologies: ['HTML', 'CSS', 'JavaScript'],
     liveLink: 'https://example.com/project-1-live',
     sourceLink: 'https://github.com/user/project-1',
@@ -50,7 +50,7 @@ const tonic = projects[0]; // Obtiene el proyecto "Tonic" del arreglo
 
 const tonicHTML = `
   <article>
-    <img src="${tonic.image}" alt="${tonic.name}">
+    
     <div class="adjust">
       <div class="leftblock">
         <h2>${tonic.name}</h2>
@@ -61,6 +61,7 @@ const tonicHTML = `
           <span><i class="fa fa-circle"></i></span>
           <span class="year">${tonic.year}</span>
         </div>
+        <img src="${tonic.image}" alt="${tonic.name}">
         <p class="primarytext">${tonic.description}</p> 
       </div>
       <ul class="tags">
@@ -69,7 +70,8 @@ const tonicHTML = `
         <li class="tag">${tonic.technologies[2]}</li>
       </ul>
       <div class="ref">
-        <button>See project</button>
+        <button>See live</button>
+        <button class="fastt">See source</button>
       </div>
     </div>
   </article>

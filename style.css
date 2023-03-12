@@ -496,6 +496,10 @@ body.popup-active {
   overflow: hidden;
 }
 
+.fastt{
+  margin-left: 10px;
+}
+
 @media (max-width: 767px) {
   .hamburger {
     display: block;
