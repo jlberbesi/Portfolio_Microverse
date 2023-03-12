@@ -5,7 +5,7 @@ const projects = [
     client: 'Canopy',
     category: 'Back End Dev',
     year: 2015,
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
+    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. remaining essent',
     technologies: ['HTML', 'CSS', 'JavaScript'],
     liveLink: 'https://example.com/project-1-live',
     sourceLink: 'https://github.com/user/project-1',
@@ -52,7 +52,7 @@ const tonicHTML = `
   <article>
     
     <div class="adjust">
-      <div class="leftblock">
+      <div id="adj" class="leftblock">
         <h2>${tonic.name}</h2>
         <div class="ref">
           <span class="client">${tonic.client}</span>
@@ -62,7 +62,7 @@ const tonicHTML = `
           <span class="year">${tonic.year}</span>
         </div>
         <img src="${tonic.image}" alt="${tonic.name}">
-        <p class="primarytext">${tonic.description}</p> 
+        <p id='adj' class="primarytext">${tonic.description}</p> 
       </div>
       <ul class="tags">
         <li class="tag">${tonic.technologies[0]}</li>
